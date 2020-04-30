@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="81px" height="81px" viewBox="0 0 81 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>首页-图标备份@3x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页-图标备份">
+            <g id="编组-12" transform="translate(0.000000, 0.000000)">
+                <path d="M0,40.5251545 C0,63.630945 17.3295438,80.4593478 40.3151678,80.4593478 C63.3007918,80.4593478 81,62.9545708 81,39.8487802 L0,40.5251545 Z" id="路径" fill="#004BFF" transform="translate(40.500000, 60.154064) rotate(-360.000000) translate(-40.500000, -60.154064) "></path>
+                <path d="M27.7566393,9.44683799 C27.7566393,20.111049 35.5732541,27.7806603 46.2374651,27.7806603 C56.9016761,27.7806603 64.7182908,20.111049 64.7182908,9.44683799 L27.7566393,9.44683799 Z" id="路径" fill="#F9263B" transform="translate(46.237465, 18.613749) rotate(-90.000000) translate(-46.237465, -18.613749) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

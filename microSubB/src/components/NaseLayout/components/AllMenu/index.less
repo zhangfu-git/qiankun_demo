@@ -1,0 +1,35 @@
+.allMenu {
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 10px 0 20px;
+  box-sizing: border-box;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  .arrowRight {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: right .6s ease;
+  }
+  
+  &:hover, 
+  &.active {
+    background-color: #eee;
+    .arrowRight {
+      right: 10px;
+    }
+  }
+}
+
+.icon {
+  padding-right: 10px;
+}
+
+.title {
+
+}
+.isMobie {
+  display: block;
+}
