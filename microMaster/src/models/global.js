@@ -1,7 +1,6 @@
 import { queryNotices } from '@/services/user';
 import { getApps } from '@/services/app';
 import { isResOk } from '@/utils/utils';
-import { start } from 'qiankun';
 
 const GlobalModel = {
   namespace: 'global',
@@ -91,12 +90,6 @@ const GlobalModel = {
         type: 'getAppsSuccess',
         payload: res.data
       });
-
-      setTimeout(() => {
-        start({
-          sandbox: false,
-        })
-      }, 800);
     },
   },
   reducers: {

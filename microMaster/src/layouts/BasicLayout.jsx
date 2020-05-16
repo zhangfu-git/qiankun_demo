@@ -17,6 +17,7 @@ import logo from '../assets/logo.svg';
 import NaseLayout from '@/components/NaseLayout';
 import LeftContent from '@/components/GlobalHeader/LeftContent';
 import defaultSettings from '../../config/defaultSettings';
+import { start } from 'qiankun';
 
 const noMatch = (
   <Result
@@ -128,6 +129,9 @@ const BasicLayout = props => {
       });
       dispatch({
         type: 'global/getApps'
+      });
+      start({
+        sandbox: false,
       });
     }
   }, []);
