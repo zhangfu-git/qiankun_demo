@@ -24,7 +24,9 @@ export default {
   /* ################ 自定义默认配置 ################ */
   publicPath: '/org/microMaster/',  // 资源的前缀
   base: '/', // 前端路由的前缀
-  history: 'hash', // 前端路由的方式 browser、hash、memory
+  history: {
+    type: 'browser'
+  }, // 前端路由的方式 browser、hash、memory
   requestPrefix: '',
   orgId: 14,      // 当前机构下的id
 };

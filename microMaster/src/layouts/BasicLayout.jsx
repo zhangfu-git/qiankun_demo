@@ -4,7 +4,7 @@
  * https://github.com/ant-design/ant-design-pro-layout
  */
 import ProLayout, { DefaultFooter } from '@ant-design/pro-layout';
-import { formatMessage } from 'umi-plugin-react/locale';
+import { formatMessage } from 'umi';
 import React, { useEffect } from 'react';
 import { Link, Redirect } from 'umi';
 import { connect } from 'dva';
@@ -152,8 +152,6 @@ const BasicLayout = props => {
       isRenderSubApp = true;
     }
   });
-
-  console.log('加载容器', props, isRenderSubApp, isLoadingApp, allMenu)
 
   return (
     <NaseLayout

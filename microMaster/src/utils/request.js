@@ -4,7 +4,7 @@
  */
 import { extend } from 'umi-request';
 import { notification } from 'antd';
-import { router } from 'umi';
+import { history } from 'umi';
 import { stringify } from 'querystring';
 import defaultSettings from '../../config/defaultSettings';
 
@@ -55,7 +55,7 @@ const errorHandler = error => {
         }
       }
       if (isRedirect) {
-        router.replace({
+        history.replace({
           pathname: '/login',
           search: stringify({
             redirect: window.location.href,

@@ -35,3 +35,4 @@ export const qiankun = {
     ReactDOM.unmountComponentAtNode(document.getElementById(mountElementId))
   },
 };
+

@@ -3,6 +3,7 @@ import { getApps, getCurrentMenuData } from '@/services/app';
 import { isResOk } from '@/utils/utils';
 import { qiankunStart } from 'umi';
 
+
 const GlobalModel = {
   namespace: 'global',
   state: {

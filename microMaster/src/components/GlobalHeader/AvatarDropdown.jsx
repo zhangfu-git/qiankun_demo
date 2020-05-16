@@ -2,7 +2,7 @@ import { LogoutOutlined, SettingOutlined, UserOutlined, CaretDownOutlined } from
 import { Avatar, Menu, Spin } from 'antd';
 import React from 'react';
 import { connect } from 'dva';
-import { router } from 'umi';
+import { history } from 'umi';
 import HeaderDropdown from '../HeaderDropdown';
 import styles from './index.less';
 
@@ -22,7 +22,7 @@ class AvatarDropdown extends React.Component {
       return;
     }
 
-    router.push(`/${key}`);
+    history.push(`/${key}`);
   };
 
   render() {

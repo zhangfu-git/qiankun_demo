@@ -1,5 +1,5 @@
 import { stringify } from 'querystring';
-import { router } from 'umi';
+import { history } from 'umi';
 import { fakeAccountLogin, logout } from '@/services/login';
 import { setAuthority } from '@/utils/authority';
 import { getPageQuery, isResOk } from '@/utils/utils';
@@ -42,7 +42,7 @@ const Model = {
         }
       }
 
-      router.replace(redirect || '/center');
+      history.replace(redirect || '/center');
     },
 
     *logout({ payload }, { call }) {
@@ -55,7 +55,7 @@ const Model = {
         window.location.hash.indexOf('#/login') === -1 && !redirect
         : window.location.pathname !== '/login' && !redirect
       ) {
-        router.replace({
+        history.replace({
           pathname: '/login',
         });
       }

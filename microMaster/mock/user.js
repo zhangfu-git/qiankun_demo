@@ -35,11 +35,11 @@ function createMenuData(count) {
         },
         {
           key: 'entry',
-          value: `http://localhost:8002/#/microSubA/`
+          value: `http://localhost:8002/`
         },
         {
           key: 'mountElementId',
-          value: 'subApp'
+          value: 'microSubApp'
         },
         {
           key: 'base',
@@ -62,11 +62,11 @@ function createMenuData(count) {
         },
         {
           key: 'entry',
-          value: `http://localhost:8001/#/microSubB/`
+          value: `http://localhost:8001`
         },
         {
           key: 'mountElementId',
-          value: 'microSubB'
+          value: 'microSubApp'
         },
         {
           key: 'base',

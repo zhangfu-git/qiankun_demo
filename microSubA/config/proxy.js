@@ -11,7 +11,6 @@ export default {
       target: 'http://localhost:8000',
       changeOrigin: true,
       cookieDomainRewrite: {
-        "nase.tech": "",
         "*": ""
       },
     },

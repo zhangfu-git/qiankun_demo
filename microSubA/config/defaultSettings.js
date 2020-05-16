@@ -25,9 +25,9 @@ export default {
     copyright: 'DEMO系统'
   },
   /* ################ 自定义默认配置 ################ */
-  publicPath: `/org/${appPrefix}/`, // 资源的前缀, 多机构需要配置这个
-  base: `/${appPrefix}`, // 微前端需要配置
-  history: 'hash', // 前端路由的方式 browser、hash、memory
+  publicPath: `/microSubA/`, // 资源的前缀, 多机构需要配置这个
+  base: `/microSubA`, // 微前端需要配置
+  history: 'browser', // 前端路由的方式 browser、hash、memory
   requestPrefix: '', // 请求api的前缀
-  mountElementId: `${appPrefix}`,
+  mountElementId: 'root-slave',
 };
